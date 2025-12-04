@@ -9,19 +9,19 @@ A complete event management and booking platform where users can browse events, 
 
 ##### Make sure you have Node.js and npm installed on your system.
 
-### 2. Setup Backend
+### 2. Setup server
 
 ```bash
-cd backend
+cd server
 npm install
 npm run dev
 ```
 
 
-### 3. Setup Frontend
+### 3. Setup client
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run dev
 ```
