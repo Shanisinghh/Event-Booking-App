@@ -9,7 +9,7 @@ const Navbar = () => {
     `px-3 py-1 rounded-md 
      ${
        isActive
-         ? "bg-gray-700 text-blue-600"
+         ? "bg-gray-700 text-blue-100"
          : "hover:bg-gray-800 hover:text-yellow-300"
      }
      transition`;

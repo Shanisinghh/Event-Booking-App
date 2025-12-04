@@ -70,8 +70,9 @@ const AdminDashboard = () => {
       const res = await axios.post(`${API}/api/events`, formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-
+      toast.success("Event Added Successfully");
       setEventReFetch(!eventReFetch);
+      setImage(null);
       resetForm();
     } catch (err) {
       console.log(err);
