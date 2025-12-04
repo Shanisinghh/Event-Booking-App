@@ -1,7 +1,6 @@
 import express from "express";
-import Event from "../models/Event.js";
-import upload from "../config/Multer.js"; // ✅ multer
-import cloudinary from "../config/cloudinary.js";
+import upload from "../config/multer.js"; 
+
 import {
   createNewEvent,
   deleteEvent,
